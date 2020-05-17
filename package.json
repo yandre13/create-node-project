@@ -1,0 +1,28 @@
+{
+	"name": "create-node-project",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/yandre13/create-node-project.git"
+	},
+	"author": "yandre13 <yandre13.elsf@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/yandre13/create-node-project/issues"
+	},
+	"bin": {
+		"create-node-project": "./index.js"
+	},
+	"homepage": "https://github.com/yandre13/create-node-project#readme",
+	"dependencies": {
+		"chalk": "^4.0.0",
+		"ejs": "^3.1.2",
+		"inquirer": "^7.1.0",
+		"shelljs": "^0.8.4"
+	}
+}

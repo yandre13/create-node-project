@@ -1,0 +1,20 @@
+{
+	"name": "npm-js",
+	"version": "1.0.0",
+	"description": "# Requirements",
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"directories": {
+		"test": "test"
+	},
+	"scripts": {
+		"test": "mocha",
+		"build": "tsc",
+		"watch": "tsc --watch"
+	},
+	"dependencies": {
+		"mocha": "7.1.2"
+	},
+	"author": "yandre13 <yandre13.elsf@gmail.com>",
+	"license": "MIT"
+}
